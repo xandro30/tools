@@ -1,0 +1,6 @@
+1. Crear un script en Python que se encargue de imprimir todos los formularios y enlaces de una página web enviada por argumento al programa.
+
+2. Crear una herramienta que permita ejecutar las siguientes tareas:
+    1. Dada una dirección IP o un nombre de dominio, encontrar información relacionada con el propietario de dicho dominio y los registros DNS correspondientes. (Ver librerías disponibles para realizar consultas WHOIS y DNS respectivamente) 
+    2. Ejecutar un escaneo con Nmap contra el objetivo y posteriormente, obtener más información del objetivo utilizando Shodan.
+    3. En el caso de encontrar puertos que frecuentemente se relacionan con servidores web (80, 8080, 443) realizar una petición HTTP utilizando el método OPTIONS para determinar si efectivamente, el objetivo es un servidor web y extraer los métodos HTTP soportados.
